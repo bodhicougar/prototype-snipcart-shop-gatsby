@@ -62,7 +62,7 @@ const ProductDetails = data => (
                   : data.data.contentfulProduct.image.fixed.src
               }
               data-item-name={data.data.contentfulProduct.name}
-              data-item-url={`/data-item-name`}
+              data-item-url={`/`}
             >
               <i className="fas fa-tags" />
               Einkaufen

@@ -1,13 +1,13 @@
-var dotenv = require("dotenv");
-dotenv.config();
+var dotenv = require('dotenv')
+dotenv.config()
 
-const { spaceId, accessToken, snipcart } = process.env;
+const { spaceId, accessToken, snipcart } = process.env
 
 module.exports = {
   siteMetadata: {
     title: `OneShopper`,
     description: `E-Commerce site with Gatsby and React`,
-    author: `@rohitguptab`,
+    author: `@bodhicougar`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -34,16 +34,17 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-source-contentful",
+      resolve: 'gatsby-source-contentful',
       options: {
-        spaceId,
-        accessToken
-      }
+        spaceId: '8qtymz1hsr9w',
+        accessToken: '7gaFj0lbH3iZXf1TmKGIJd5WclIupTBFXxG1hz_O-Tg',
+      },
     },
     {
-      resolve: "gatsby-plugin-snipcart",
+      resolve: 'gatsby-plugin-snipcart',
       options: {
-        apiKey: snipcart,
+        apiKey:
+          'MTJjNGQyY2EtMTNlZS00YzAyLWFlNDQtMDNlM2UxYzMxMjE3NjM3MDA3MDczMzM5NDAyMzQ3',
         autopop: true,
       },
     },

@@ -84,7 +84,7 @@ class IndexPost extends React.Component {
                           data-item-url={`/`}
                         >
                           <i className="fas fa-shopping-bag" />
-                          Zum Einkaufskorb hinzufügen
+                          Einkaufen
                         </a>
                       </div>
                     </div>

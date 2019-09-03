@@ -28,7 +28,7 @@ export default class Banner extends React.Component {
                   <div>
                     <span className="sub-title">{items.node.subHeading}</span>
                     <h1>{items.node.title}</h1>
-                    <Link to="/store">Shop Now</Link>
+                    <Link to="/store">Jetzt einkaufen</Link>
                   </div>
                 </div>
               </div>

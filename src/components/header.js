@@ -9,7 +9,7 @@ import logo from '../images/oneshopper-logo.png'
 
 const Header = ({ siteTitle }) => (
   <header className="site-header">
-    <SEO></SEO>
+    <SEO>Shopper-Prototype</SEO>
     <div className="container">
       <div className="row">
         <div className="col-sm-12 col-md-4 align-self-center">

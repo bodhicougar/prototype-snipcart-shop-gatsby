@@ -1,5 +1,5 @@
 {
-  "name": "OneShopper",
+  "name": "Shopper-Prototyp",
   "private": true,
   "description": "E-Commerce site with Gatsby and React",
   "version": "0.1.0",
@@ -49,9 +49,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bodhicougar/OneShopper"
+    "url": "https://github.com/bodhicougar/prototype-snipcart-shop-gatsby"
   },
   "bugs": {
-    "url": "https://github.com/Rohitguptab/OneShopper/issues"
+    "url": "https://github.com/bodhicougar/prototype-snipcart-shop-gatsby/issues"
   }
 }

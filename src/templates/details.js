@@ -47,7 +47,7 @@ const ProductDetails = data => (
         <div className="row buynowinner">
           <div className="col-sm-2">
             <span className="price">
-              Price: ${data.data.contentfulProduct.price}
+              Preis: €{data.data.contentfulProduct.price}
             </span>
           </div>
           <div className="col-sm-10 text-left">
@@ -62,7 +62,7 @@ const ProductDetails = data => (
                   : data.data.contentfulProduct.image.fixed.src
               }
               data-item-name={data.data.contentfulProduct.name}
-              data-item-url={`/`}
+              data-item-url={`/data-item-name`}
             >
               <i className="fas fa-tags" />
               Einkaufen

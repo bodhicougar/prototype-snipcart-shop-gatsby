@@ -81,7 +81,9 @@ class IndexPost extends React.Component {
                               : items.node.image.fixed.src
                           }
                           data-item-name={items.node.name}
-                          data-item-url={`/`}
+                          data-item-url={
+                            `https:www.gennaro.at` + items.node.slug
+                          }
                         >
                           <i className="fas fa-shopping-bag" />
                           Einkaufen

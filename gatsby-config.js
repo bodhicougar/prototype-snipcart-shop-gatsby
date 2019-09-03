@@ -46,10 +46,10 @@ module.exports = {
         apiKey:
           'MTJjNGQyY2EtMTNlZS00YzAyLWFlNDQtMDNlM2UxYzMxMjE3NjM3MDA3MDczMzM5NDAyMzQ3',
         autopop: true,
-        // js: 'https://cdn.snipcart.com/scripts/2.0/snipcart.js',
-        // jquery:
-        //   'https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js',
-        // styles: 'https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css',
+        js: 'https://cdn.snipcart.com/scripts/2.0/snipcart.js',
+        jquery:
+          'https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js',
+        styles: 'https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css',
       },
     },
   ],

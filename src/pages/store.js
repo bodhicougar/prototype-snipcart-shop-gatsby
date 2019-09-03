@@ -72,7 +72,7 @@ class IndexPost extends React.Component {
                       <div className="col-sm-8 text-right align-self-center">
                         <a
                           href="#"
-                          className="Product snipcart-add-item"
+                          className="snipcart-add-item"
                           data-item-id={items.node.slug}
                           data-item-price={items.node.price}
                           data-item-image={
@@ -81,9 +81,7 @@ class IndexPost extends React.Component {
                               : items.node.image.fixed.src
                           }
                           data-item-name={items.node.name}
-                          data-item-url={
-                            `https:www.gennaro.at` + items.node.slug
-                          }
+                          data-item-url="https://www.gennaro.at"
                         >
                           <i className="fas fa-shopping-bag" />
                           Einkaufen

@@ -1,3 +1,7 @@
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 var dotenv = require('dotenv')
 dotenv.config()
 

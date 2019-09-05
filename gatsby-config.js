@@ -36,15 +36,14 @@ module.exports = {
     {
       resolve: 'gatsby-source-contentful',
       options: {
-        spaceId: '8qtymz1hsr9w',
-        accessToken: '7gaFj0lbH3iZXf1TmKGIJd5WclIupTBFXxG1hz_O-Tg',
+        spaceId: process.env.CONTENTFUL_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
     {
       resolve: 'gatsby-plugin-snipcart',
       options: {
-        apiKey:
-          'MTJjNGQyY2EtMTNlZS00YzAyLWFlNDQtMDNlM2UxYzMxMjE3NjM3MDA3MDczMzM5NDAyMzQ3',
+        apiKey: process.env.SNIPCART,
         autopop: true,
       },
     },

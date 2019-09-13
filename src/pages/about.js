@@ -13,7 +13,7 @@ class About extends React.Component {
               <div className="col-sm-12">
                 <h2>About Us</h2>
                 <p>
-                  This Started created for Ecommerce site with Gatsby +
+                  This Starter created for E-Commerce site with Gatsby +
                   Contentful and snipcart
                 </p>
                 <h2>Features</h2>

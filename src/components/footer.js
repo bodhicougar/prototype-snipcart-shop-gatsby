@@ -32,7 +32,7 @@ class Footer extends React.Component {
             </div>
             <div className="footer-bottom social-right-menu ">
               <div className="site-info">
-                ©2019 BlackBoxMediaDesign OÜ. All rights reserved.
+                ©2020 BlackBoxMediaDesign OÜ. All rights reserved.
               </div>
             </div>
           </div>
